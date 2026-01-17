@@ -22,8 +22,8 @@
 		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>Blog Avoid</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1766439988165"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1766439988165">
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1768672625901"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1768672625901">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -132,20 +132,26 @@
 							<a data-fls-button="" href="#" data-fls-scrollto="#description-blog-single" data-fls-scrollto-top="80" data-fls-scrollto-speed="1000" class="blog-single__button button button--text button--text-big button--icon-arrow button--icon-arrow-big --icon-arrow-180">REad
             More</a>
 						</div>
-						<div class="blog-single__info info-blog-single">
+						<dl class="blog-single__info info-blog-single">
 							<div class="info-blog-single__item" data-fls-watcher="" data-fls-watcher-once="">
-								<h5 class="info-blog-single__title">Date</h5>
-								<time class="info-blog-single__info" datetime="2023-08-23">23rd Aug 2023</time>
+								<dt class="info-blog-single__title">Date</dt>
+								<dd>
+									<time class="info-blog-single__info" datetime="2023-08-23">23rd Aug 2023</time>
+								</dd>
 							</div>
 							<div class="info-blog-single__item" data-fls-watcher="" data-fls-watcher-once="">
-								<h5 class="info-blog-single__title">Category</h5>
-								<a href="services.html#service--webdesign" data-fls-scrollto="services.html#service--webdesign" data-fls-scrollto-header="" data-fls-scrollto-speed="1000" class="info-blog-single__info info-blog-single__info-link">Web Design</a>
+								<dt class="info-blog-single__title">Category</dt>
+								<dd>
+									<a href="services.html#service--webdesign" data-fls-scrollto="services.html#service--webdesign" data-fls-scrollto-header="" data-fls-scrollto-speed="1000" class="info-blog-single__info info-blog-single__info-link">Web Design</a>
+								</dd>
 							</div>
 							<div class="info-blog-single__item" data-fls-watcher="" data-fls-watcher-once="">
-								<h5 class="info-blog-single__title">Reading time</h5>
-								<time class="info-blog-single__info" datetime="PT5M">5 Min</time>
+								<dt class="info-blog-single__title">Reading time</dt>
+								<dd>
+									<time class="info-blog-single__info" datetime="PT5M">5 Min</time>
+								</dd>
 							</div>
-						</div>
+						</dl>
 						<div class="blog-single__picture" data-fls-watcher="" data-fls-watcher-once="">
 							<picture>
 								<img class="blog-single__image" alt="Image" src="./assets/img/blog/04.webp">
@@ -193,7 +199,7 @@
 									</picture>
 								</div>
 								<div class="author-conclusion__info">
-									<h5 class="author-conclusion__name"></h5>
+									<h4 class="author-conclusion__name">Arik Andersson</h4>
 									<div class="author-conclusion__job-title">Framer Expert</div>
 								</div>
 							</div>
@@ -211,10 +217,10 @@
 						</div>
 						<div class="blog-single__related-news related-news">
 							<div data-fls-blockheadbutton="" class="blockheadbutton">
-								<h3 class="blockheadbutton__title">
+								<h2 class="blockheadbutton__title">
 									Related
 									<span>News</span>
-								</h3>
+								</h2>
 								<a data-fls-button="" href="blog.html" class="button button--text button--icon-arrow --icon-arrow-45">See all</a>
 							</div>
 							<div class="related-news__items">
@@ -226,9 +232,9 @@
 									</a>
 									<div class="item-blog__body">
 										<time class="item-blog__date" datetime="2023-08-23">23rd Aug 2023</time>
-										<h4 class="item-blog__title">
+										<h3 class="item-blog__title">
 											<a href="blog-stunning.html" class="item-blog__title-link">How to Build a Stunning Website with Framer</a>
-										</h4>
+										</h3>
 										<div class="item-blog__text">
 											<p>
 												Learn how to create an impressive website using Framer with our step-by-step guide.
@@ -245,9 +251,9 @@
 									</a>
 									<div class="item-blog__body">
 										<time class="item-blog__date" datetime="2023-08-23">23rd Aug 2023</time>
-										<h4 class="item-blog__title">
+										<h3 class="item-blog__title">
 											<a href="blog-engagement.html" class="item-blog__title-link">10 website elements for maximum user engagement</a>
-										</h4>
+										</h3>
 										<div class="item-blog__text">
 											<p>
 												10 website elements to engage users, from intuitive navigation to compelling visuals.
@@ -264,9 +270,9 @@
 									</a>
 									<div class="item-blog__body">
 										<time class="item-blog__date" datetime="2023-08-23">23rd Aug 2023</time>
-										<h4 class="item-blog__title">
+										<h3 class="item-blog__title">
 											<a href="blog-traffic.html" class="item-blog__title-link">The importance of content in driving website traffic</a>
-										</h4>
+										</h3>
 										<div class="item-blog__text">
 											<p>Quality content is king. Learn how to create valuable, SEO-optimized content.</p>
 										</div>
@@ -331,26 +337,6 @@
 										<a data-fls-social="" href="https://www.behance.net/" target="_blank" class="social__link --icon-s-behance social-link social-link--mini">Behance</a>
 									</li>
 								</ul>
-								<!--
-<ul class="social__list">
-<li class="social__item">
-<a data-fls-social href="https://www.instagram.com/" target="_blank"
-class="social__link --icon-s-inst social-item social-item--mini">Instagram</a>
-</li>
-<li class="social__item">
-<a data-fls-social href="https://x.com/" target="_blank"
-class="social__link --icon-s-x social-item social-item--mini">Twitter</a>
-</li>
-<li class="social__item">
-<a data-fls-social href="https://dribbble.com/" target="_blank"
-class="social__link --icon-s-dribbble social-item social-item--mini">Dribbble</a>
-</li>
-<li class="social__item">
-<a data-fls-social href="https://www.behance.net/" target="_blank"
-class="social__link --icon-s-behance social-item social-item--mini">Behance</a>
-</li>
-</ul>
--->
 							</div>
 							<div class="footer__column">
 								<div data-fls-spollers="991.98, max" class="spollers-footer spollers">
@@ -440,14 +426,6 @@ class="social__link --icon-s-behance social-item social-item--mini">Behance</a>
 			</footer>
 		</div>
 		<!-- ? scroll-to-top buttton -->
-		<button data-fls-scrolltop="" class="scroll-to-top --icon-arrow" aria-label="Вернуться наверх">
-			<!--
-<svg xmlns="http://www.w3.org/2000/svg" class="back-to-top" width="14" height="18" viewBox="0 0 14 18" fill="none">
-<path fill-rule="evenodd" clip-rule="evenodd"
-d="M7.00012 17.75C6.58591 17.75 6.25012 17.4142 6.25012 17L6.25012 2.81066L1.53045 7.53033C1.23756 7.82322 0.762684 7.82322 0.469791 7.53033C0.176898 7.23744 0.176898 6.76256 0.469791 6.46967L6.46979 0.46967C6.61044 0.329018 6.80121 0.250001 7.00012 0.250001C7.19903 0.250001 7.3898 0.329018 7.53045 0.46967L13.5305 6.46967C13.8233 6.76256 13.8233 7.23744 13.5305 7.53033C13.2376 7.82322 12.7627 7.82322 12.4698 7.53033L7.75012 2.81066L7.75012 17C7.75012 17.4142 7.41434 17.75 7.00012 17.75Z"
-fill="white"></path>
-</svg>
--->
-		</button>
+		<button data-fls-scrolltop="" class="scroll-to-top --icon-arrow" aria-label="Вернуться наверх"></button>
 	</body>
 </html>
