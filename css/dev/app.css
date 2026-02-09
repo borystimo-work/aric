@@ -49,6 +49,9 @@ button {
   /* Ця властивість дозволяє прибрати підсвічування, яке може бути видно при натисканні на Touch-пристроях. */
   -webkit-tap-highlight-color: transparent;
 }
+summary {
+  -webkit-tap-highlight-color: transparent;
+}
 input:focus,
 textarea:focus {
   outline: none;
@@ -483,7 +486,7 @@ html[data-fls-touch] .menu__arrow {
   display: grid;
 }
 .footer__link-logo, .footer__logo {
-  margin-bottom: 2.4375rem;
+  justify-self: start;
 }
 .spollers-footer__title {
   padding-right: 3.125rem;
@@ -735,7 +738,7 @@ html[data-fls-touch] .menu__arrow {
   background-color: var(--color-muted-rgba);
   transition: color 0.5s ease 0s, transform 0.5s ease 0s, outline-color 0.5s ease 0s;
 }
-.social-link--mini {
+.social-link--mini::before {
   font-size: 0.875rem;
   width: 2.375rem;
   height: 2.375rem;
@@ -2414,10 +2417,7 @@ textarea.input {
   .footer {
     padding-block: 3.125rem;
   }
-  .footer__main {
-    padding-bottom: 2.5rem;
-  }
-  .footer__link-logo, .footer__logo {
+  .footer__link-logo {
     margin-bottom: 0.9375rem;
   }
   .spollers-footer__body {
@@ -2774,10 +2774,7 @@ textarea.input {
   .footer {
     padding-block: clamp( 3.125rem , 2.87274774775rem  +  1.2612612613vw , 4rem );
   }
-  .footer__main {
-    padding-bottom: clamp( 2.5rem , 1.77927927928125rem  +  3.6036036036vw , 5rem );
-  }
-  .footer__link-logo, .footer__logo {
+  .footer__link-logo {
     margin-bottom: clamp( 0.9375rem , 0.50506756756875rem  +  2.1621621622vw , 2.4375rem );
   }
   .spollers-footer__body {
@@ -3379,10 +3376,7 @@ textarea.input {
   .footer {
     padding-block: 4rem;
   }
-  .footer__main {
-    padding-bottom: 5rem;
-  }
-  .footer__link-logo, .footer__logo {
+  .footer__link-logo {
     margin-bottom: 2.4375rem;
   }
   .spollers-footer__body {

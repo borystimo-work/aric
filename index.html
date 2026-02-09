@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<style data-fls-preloader="true" rel="preload">
+		<style data-fls-preloader="false" rel="preload">
 			body>*:not(.fls-preloader) {
       opacity: 0;
       visibility: hidden;
@@ -22,8 +22,8 @@
 		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>Home Page</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1770468634409"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1770468634409">
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1770631977105"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1770631977105">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -107,6 +107,7 @@
 				</div>
 			</header>
 			<main class="page page--home">
+				<!-- hero -->
 				<section class="page__hero hero">
 					<div class="hero__container">
 						<div class="hero__picture">
@@ -128,7 +129,7 @@
 						</div>
 					</div>
 				</section>
-				<!-- ========================================================================================================= -->
+				<!-- clients -->
 				<div data-fls-watcher="navigator" class="page__clients clients" id="clients">
 					<div class="clients__container">
 						<div class="clients__item" data-fls-watcher="">
@@ -151,7 +152,7 @@
 						</div>
 					</div>
 				</div>
-				<!-- ========================================================================================================= -->
+				<!-- skills -->
 				<div class="page__skills skills" data-fls-watcher="navigator" id="skills">
 					<div class="skills__container">
 						<div data-fls-skill="" data-fls-watcher="" data-fls-watcher-once="" class="skill skill--webdesign">
@@ -183,7 +184,7 @@
 						</div>
 					</div>
 				</div>
-				<!-- ========================================================================================================= -->
+				<!-- selected-work -->
 				<section data-fls-watcher="navigator" class="page__selected-work selected-work" id="selected-work">
 					<div class="selected-work__container">
 						<div data-fls-blockheadbutton="" class="blockheadbutton">
@@ -253,7 +254,7 @@
 						</div>
 					</div>
 				</section>
-				<!-- ========================================================================================================= -->
+				<!-- process -->
 				<section class="page__process process">
 					<div class="process__container">
 						<div data-fls-headerblock="" class="process__header-block header-block" data-fls-watcher="" data-fls-watcher-once="">
@@ -349,7 +350,7 @@
 						</div>
 					</div>
 				</section>
-				<!-- ========================================================================================================= -->
+				<!-- testimonials -->
 				<section class="page__testimonials testimonials" id="testimonials">
 					<div class="testimonials__container">
 						<div data-fls-headerblock="" data-fls-watcher="" data-fls-watcher-once="" class="testimonials__header-block header-block">
@@ -515,7 +516,7 @@
 						</div>
 					</div>
 				</section>
-				<!-- ========================================================================================================= -->
+				<!-- about-me -->
 				<section class="page__about-me about-me">
 					<div class="about-me__container">
 						<div data-fls-watcher="" data-fls-watcher-threshold="0.2" class="about-me__picture">
@@ -558,7 +559,7 @@
 						</div>
 					</div>
 				</section>
-				<!-- ========================================================================================================= -->
+				<!-- bottom -->
 				<section data-fls-bottom="" class="bottom">
 					<div class="bottom__banner">
 						<div data-fls-marquee="" data-fls-marquee-pause="" data-fls-marquee-speed="300" data-fls-marquee-space="32">
@@ -582,7 +583,6 @@
          talk</a>
 					</div>
 				</section>
-				<!-- ========================================================================================================= -->
 			</main>
 			<footer data-fls-footer="" class="footer">
 				<div class="footer__container services__container-big">
@@ -627,10 +627,6 @@
 												<li class="spollers-footer__li">
 													<a href="contact.html" class="spollers-footer__link">Contact</a>
 												</li>
-												<li class="spollers-footer__li">
-													<a href="work.html" class="spollers-footer__link button button--lite button--icon-arrow --icon-arrow-45">More
-											Templates</a>
-												</li>
 											</ul>
 										</div>
 									</details>
@@ -666,7 +662,7 @@
 										<summary class="spollers-footer__title spollers__title">Utility Pages</summary>
 										<div class="spollers-footer__body spollers__body">
 											<ul class="spollers-footer__list">
-												<li class="spollers-footer__item">
+												<li class="spollers-footer__li">
 													<a href="#" class="spollers-footer__link">404 Error
 											Page</a>
 												</li>
@@ -689,9 +685,6 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="footer__bottom">
-						<p>© 2022 Made by Pawel Gola. Powered by Framer..</p>
 					</div>
 				</div>
 			</footer>
